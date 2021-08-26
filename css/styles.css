@@ -1,0 +1,194 @@
+/* HTML Elements */
+body {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat';
+}
+
+/* Headings */
+.big-heading {
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.section-heading {
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+
+/* Sections */
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: white;
+}
+
+
+/* Containers */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: 400;
+}
+
+
+/* Download Buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+
+#title {
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding-top: 3%;
+}
+
+/* Title Image */
+.iphone6-img {
+  width: 20%;
+  position: absolute;
+  transform: rotate(25deg);
+  right: 23%;
+}
+
+@media (max-width: 1172px) {
+  .iphone6-img {
+    position: static;
+    width: 70%;
+    transform: rotate(0);
+  }
+
+  .title-img {
+    text-align: center;
+  }
+}
+
+@media (max-width: 992px) {
+  #title {
+    text-align: center;
+  }
+}
+
+
+/* Features Section */
+#features {
+  position: relative;
+}
+
+.feature-title {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 5% 3% 0;
+}
+
+.iconic-image {
+  color: #ef8172;
+}
+
+.iconic-image:hover {
+  color: #ff4c68;
+}
+
+.feature-p {
+  color: #8f8f8f;
+}
+
+
+/* Testimonials Section */
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-caption {
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+
+/* Press Section */
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-image {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+
+/* Payment Plans */
+#pricing {
+  padding: 100px;
+}
+.price-heading {
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.pricing-title {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.price-col {
+  padding: 3% 2%;
+}
+
+
+/* Call to action section */
+
+
+/* Footer Section */
+#footer {
+  padding: 4%;
+}
+
+.footer-icon {
+  padding: 1%
+}
